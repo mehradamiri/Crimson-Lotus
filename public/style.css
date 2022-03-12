@@ -28,3 +28,19 @@ h1{
     left: 16px;
     font-size: 70px;
   }
+  input{
+    font-family: "Kalameh";
+    color: white;
+    background-color: #000000;
+    border-color: red;
+    height: 50%;
+    width: 79px ;
+    box-shadow: 0%;
+    border-color: 0% ;
+    border-radius: 10px;
+    text-align: center;
+}
+  #DR{
+    margin-bottom: 0px;
+  }
+  
