@@ -55,11 +55,11 @@ function DR() {
     xM = document.getElementById("inp1").value;
     a = Math.floor(Math.random() * parseFloat(xM)) + 1;
     document.getElementById('num').innerHTML = a;
+    jam = jam + a;
     document.getElementById("jama").innerHTML = jam;
     if (document.getElementById('num').innerHTML == "NaN") {
         document.getElementById('num').innerHTML = "اسکول یه عدد بزار"
-    } else {
-        jam = jam + a;
+        jama()
     }
 }
 
