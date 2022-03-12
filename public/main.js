@@ -35,6 +35,7 @@ function d20() {
     document.getElementById("num").innerHTML = a ;
 }
 function DR(){
+    document.getElementById('num').style.color = "#D455C8"
     xM = document.getElementById("inp1").value ;
     a = Math.floor(Math.random() * parseFloat(xM))+1;
     document.getElementById('num').innerHTML = a;
