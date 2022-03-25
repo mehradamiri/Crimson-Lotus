@@ -58,7 +58,7 @@ function DR() {
     jam = jam + a;
     document.getElementById("jama").innerHTML = jam;
     if (document.getElementById('num').innerHTML == "NaN") {
-        document.getElementById('num').innerHTML = "اسکول یه عدد بزار"
+        document.getElementById('num').innerHTML = "enter a number"
         jama()
     }
 }
